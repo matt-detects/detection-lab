@@ -23,7 +23,7 @@ Practical JSON and raw log parsing using Python and regex.
 - CSV normalization
 - Named capture groups
 - Pattern-based event parsing
-- 
+ 
 Repo: https://github.com/matt-detects/log-parsing
 
 ---
