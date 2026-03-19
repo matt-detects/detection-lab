@@ -24,7 +24,7 @@ Practical JSON and raw log parsing using Python and regex.
 - Named capture groups
 - Pattern-based event parsing
  
-Repo: https://github.com/matt-detects/log-parsing
+Repo: [log-parsing](https://github.com/matt-detects/log-parsing)
 
 ---
 
@@ -35,7 +35,7 @@ Python-based enrichment workflows using REST APIs.
 - Error handling
 - Structured output formatting
 
-Repo: https://github.com/matt-detects/API-enrichment
+Repo: [API-enrichment](https://github.com/matt-detects/API-enrichment)
 
 ---
 
@@ -45,7 +45,17 @@ Detection rule development aligned to MITRE ATT&CK.
 - Rule documentation
 - False-positive considerations
 
-Repo: https://github.com/matt-detects/sigma-rules
+Repo: [sigma-rules](https://github.com/matt-detects/sigma-rules)
+
+---
+
+### Lab Environment
+
+The detection work in this repository runs against a self-hosted ELK lab built on commodity hardware: two ThinkPad X1 Carbon laptops running Debian 13, with Elasticsearch, Kibana, Logstash, and Fleet Server in Docker alongside Zeek (network sensor), Suricata (IDS), and MISP (threat intelligence platform). Windows endpoint telemetry is collected via Sysmon and Elastic Agent.
+
+A full description of the architecture, component rationale, ATT&CK coverage map, and data flows is in the dedicated repo:
+
+Repo: [lab-environment](https://github.com/matt-detects/lab-environment)
 
 ---
 
@@ -59,7 +69,7 @@ These labs are focused on practical detection engineering skills:
 - Reducing false positives
 - Thinking in terms of detection lifecycle
 
-All projects use synthetic or publicly available data.
+Projects use synthetic data, publicly available attack datasets, open-source threat intelligence feeds, and telemetry collected from the lab environment itself.
 
 ---
 
